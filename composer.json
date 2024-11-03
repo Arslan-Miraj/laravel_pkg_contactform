@@ -1,0 +1,25 @@
+{
+    "name": "arslan/contactform",
+    "description": "laravel contact pkg",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Arslan\\Contactform\\": "src/"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers": [
+                "Arslan\\Contactform\\ContactformServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "arslan"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
